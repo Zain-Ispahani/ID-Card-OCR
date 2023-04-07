@@ -1,6 +1,6 @@
 Note: The PyTorch model files have not been added yet, they will be included later. Also, a few changes to be made in the code which will be ready for production.
 
-`Authors:  Zain Ispahani; Muhammad Usman; Muhammad Ahmad`
+`Authors:  Zain Ispahani (www.github.com/Zain-Ispahani); Muhammad Usman (www.github.com/MuhamaadUsman)`
 # OCR Product Suite
 
 
@@ -22,7 +22,6 @@ _# note that these packages are from deb use RPM for RedHat_
 pip3 install -r requirments.txt
 ```
 4. Create **gunicorn** server follow the steps in "deploymentdocuments\gunicorn Setup.docx".
-4. Edit `configuration.ini` as per requirements. _note: do not change blew **do not change line**_
 5. run application using.
 ```unix
 gunicorn -c configration.ini --worker-tmp-dir ‘/dev/shm’ app:app
@@ -62,7 +61,6 @@ cd OCRProductSuite
 ```unix
 sudo docker load < /path/to/ocr-api.tar
 ```
-4. Edit `configuration.ini` as per requirements. _note: do not change blew **do not change line**_
 4. Run container using following command
 ```unix
 sudo docker run -it -v /Path/to/OCRProductSuite/:/home/code -p 5000:5000 ocr-api
