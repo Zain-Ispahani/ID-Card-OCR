@@ -6,6 +6,8 @@ This project main objective is to perform OCR on Pakistan National ID Cards for 
 2. Image Alignment and Rotation 
 3. Using GAN for Image Cleaning
 
+**The work on GAN is inspired by the repository: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+
 Any input/feedback would be highly-appreciated and incorporated! 
 
 `Authors:  Zain Ispahani (www.github.com/Zain-Ispahani); Muhammad Usman (www.github.com/MuhamaadUsman)`
