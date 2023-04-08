@@ -40,7 +40,7 @@ cd OCRProductSuite
 ```unix
 sudo docker build -t ocr-api .
 ```
-4. Edit `configuration.ini` as per requirements. _note: do not change blew **do not change line**_
+4. Edit `configuration.ini` as per requirements. _note: do not change below **do not change line**_
 5. Run container using following command
 ```unix
 sudo docker run -it -v /Path/to/OCRProductSuite/:/home/code -p 5000:5000 ocr-api
