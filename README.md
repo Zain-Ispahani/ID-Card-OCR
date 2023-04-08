@@ -1,5 +1,11 @@
 Note: The PyTorch model files cannot be uploaded due to privacy policy, however, the code notebooks have been uploaded in the folder "Code Files" for the purpose of training on new data.
 
+This project main objective is to perform OCR on Pakistan National ID Cards for the purpose of verification of customers. However, simply performing OCR using installed libraries was not feasible as accuracy was effected due to image lightning, camera pixel, background and misalignment. Therefore, the project had to go through multiple stages to achieve the objective which as stated below:
+
+1. ID Card Keypoint detection
+2. Image Alignment and Rotation 
+3. Using GAN for Image Cleaning
+
 `Authors:  Zain Ispahani (www.github.com/Zain-Ispahani); Muhammad Usman (www.github.com/MuhamaadUsman)`
 # OCR Product Suite
 
