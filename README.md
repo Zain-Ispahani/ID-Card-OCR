@@ -8,7 +8,7 @@ This project main objective is to perform OCR on Pakistan National ID Cards for 
 
 An illustration of the above 03 steps before we perform OCR (using easyocr library) is shown below:
 
-![Process Flow of ID Card](https://github.com/Zain-Ispahani/ID-Card-OCR/tree/main/code_files/OCR_Process.PNG?raw=true)
+![OCR_Process](https://user-images.githubusercontent.com/51902209/230748038-8310cb67-6dfe-45eb-9b51-c777e9328c8b.PNG)
 
 **The work on GAN is inspired by the repository: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix**
 
